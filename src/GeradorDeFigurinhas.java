@@ -38,7 +38,7 @@ public class GeradorDeFigurinhas {
         graphics.drawString("Rock yeah", 100, novaAltura - 100);
         
         //escrever a imagem nova em 
-        ImageIO.write(novaImagem, "png", new File("saida/" + nomeArquivo));
+        ImageIO.write(novaImagem, "png", new File(nomeArquivo));
     }
 
 }
